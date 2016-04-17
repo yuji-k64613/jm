@@ -30,7 +30,7 @@ public class Resource {
 //	public static final String		HELPMSG_EMCOLOR = "サイトスワップ表記の強調色を決定します。";
 //	public static final String		HELPMSG_INITIALIZE = "上記の設定を初期状態に戻します。";
 
-	public static int speed = 10;
+	public static int speed = 6;
 	private static byte redrawrate = 30;
 
 	public static float cx = 0.0f;

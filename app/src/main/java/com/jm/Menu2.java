@@ -70,6 +70,7 @@ public class Menu2 extends BaseActivity {
 		ListViewArrayAdapter adapter = new ListViewArrayAdapter(
 				this, android.R.layout.simple_list_item_1, list);
 		listView.setAdapter(adapter);
+		listView.setScrollingCacheEnabled(false);
 
 		listView.setOnItemClickListener(new OnItemClickListener() {
 			@Override

@@ -31,7 +31,7 @@
 <Spinner android:layout_width="wrap_content" android:id="@+id/spinner72" android:layout_height="wrap_content"></Spinner>
 
 <TextView android:text="@+string/period" android:id="@+id/TextView73" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
-<LinearLayout android:id="@+id/TextView74" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
 <Spinner android:layout_width="wrap_content" android:id="@+id/spinner73" android:layout_height="wrap_content"></Spinner>
 <TextView android:text="ー" android:id="@+id/TextView74" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 <Spinner android:layout_width="wrap_content" android:id="@+id/spinner74" android:layout_height="wrap_content"></Spinner>
@@ -40,7 +40,7 @@
 <TextView android:text="@+string/patternMax" android:id="@+id/TextView75" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 <Spinner android:layout_width="wrap_content" android:id="@+id/spinner75" android:layout_height="wrap_content"></Spinner>
 
-<LinearLayout android:id="@+id/TextView75" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1">
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1">
 </LinearLayout>
 
 </LinearLayout>

@@ -5,14 +5,14 @@
         jar="/Users/konishiyuji/workspaces/jm/source/jm/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="22.0.1"
-        sha1="cc142a943ec35c4073f95c09a99e0091295e90fb">
+        sha1="4e999b87f804384d0f4f549b0ddeba6d99cb8f40">
         <dex dex="/Users/konishiyuji/workspaces/jm/source/jm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_27dc9e22ca934f69befc87309427aa597e8d3a78/classes.dex" />
     </item>
     <item
         jar="/Users/konishiyuji/workspaces/jm/source/jm/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="22.0.1"
-        sha1="ddbd90d92a504ba0efa1807c8619f79dd39bb1f7">
+        sha1="4e0d38f7f09c6113f608a742aa71c0abaf07ae52">
         <dex dex="/Users/konishiyuji/workspaces/jm/source/jm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_309bbbebafc28f96ddac56990b5114607a6f5a1d/classes.dex" />
     </item>
 

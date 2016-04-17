@@ -58,6 +58,7 @@ public class Menu1 extends BaseActivity {
 				this, android.R.layout.simple_list_item_1, list);
 		ListView listView = (ListView) findViewById(R.id.Menu1);
 		listView.setAdapter(adapter);
+		listView.setScrollingCacheEnabled(false);
 
 		listView.setOnItemClickListener(new OnItemClickListener() {
 			@Override
