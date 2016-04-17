@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lang">1</string>
+    <string name="app_name">JuggleMaster</string>
+    <string name="help1">●You can change the figure by pressing a few seconds on its name</string>
+    <string name="help2">●You can create a new figure by going into the menu [7] My patterns</string>
+    <string name="help3">●You can generate patterns by going to the menu [8] generator patterns</string>
+    <string name="help4">●You can change your point of view by draging the juggler</string>
+    <string name="help5">●After selecting the \"Original mode\" from the menu, then select \"Pattern file\", you can change the pattern file, and add</string>
+    <string name="help">Help</string>
+    <string name="orgmode">Original mode</string>
+    <string name="andmode">Android mode</string>
+    <string name="load">Pattern file</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="pattern_name">Pattern name</string>
+    <string name="siteswap">Siteswap</string>
+    <string name="handling">Handling</string>
+    <string name="height">Height</string>
+    <string name="hold">Retention time</string>
+    <string name="common_settings">[Common Settings]</string>
+    <string name="speed">Speed</string>
+    <string name="create">New</string>
+    <string name="calculating">During the calculation・・・</string>
+    <string name="patternTypes">The type of pattern</string>
+    <string name="normal">Usually</string>
+    <string name="synchronization">Synchro</string>
+    <string name="number">Number of balls</string>
+    <string name="bheight">The height of the ball</string>
+    <string name="period">Period of the pattern</string>
+    <string name="patternMax">The maximum number of patterns</string>
+    <string name="generate">Generation</string>
+    <string name="select">Select</string>
+    <string name="update">Update</string>
+    <string name="title_system_error">System Error</string>
+    <string name="title_delete">Delete</string>
+    <string name="message_delete_pattern">Are you sure you want to delete this pattern?</string>
+    <string name="message_delete_patternfile">Are you sure you want to delete this pattern file?</string>
+    <string name="patternFileTitle">Pattern name</string>
+    <string name="message_nopattern">There is no pattern</string>
+    <string name="error_unexpected">An unexpected error has occurred</string>
+    <string name="siteswap_error">Error</string>
+    <string name="list0_1">[1] 3 Balls Part 1</string>
+    <string name="list0_2">[2] 3 Balls Part 2</string>
+    <string name="list0_3">[3] 4 Balls</string>
+    <string name="list0_4">[4] 5 Balls</string>
+    <string name="list0_5">[5] 6 Balls and more</string>
+    <string name="list0_6">[6] Education</string>
+    <string name="list0_7">[7] My patterns</string>
+    <string name="list0_8">[8] Patterns generator</string>
+<!--  
+    <string name="title_activity_pattern_list">PatternList</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+-->
+</resources>

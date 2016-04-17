@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+ 	android:layout_height="fill_parent"
+   	android:orientation="vertical"
+  >
+    <TextView
+    	android:text=""
+    	android:id="@+id/textView91"
+    	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	   	android:layout_margin="5dp"
+    	android:textSize="14sp"
+    >
+    </TextView>
+    <TextView
+    	android:text=""
+    	android:id="@+id/textView92"
+    	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	   	android:layout_margin="5dp"
+    	android:textSize="14sp"
+    >
+    </TextView>
+    <TextView
+    	android:text=""
+    	android:id="@+id/textView93"
+    	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	   	android:layout_margin="5dp"
+    	android:textSize="14sp"
+    >
+    </TextView>
+    <TextView
+    	android:text=""
+    	android:id="@+id/textView94"
+    	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	   	android:layout_margin="5dp"
+    	android:textSize="14sp"
+    >
+    </TextView>
+    <TextView
+    	android:text=""
+    	android:id="@+id/textView95"
+    	android:layout_width="fill_parent"
+    	android:layout_height="0dp"
+	   	android:layout_margin="5dp"
+    	android:textSize="14sp"
+    	android:layout_weight="1"
+    >
+    </TextView>
+    <Button android:text="@+string/close" android:id="@+id/button91" android:layout_width="fill_parent" android:layout_height="wrap_content"
+	   	android:layout_margin="2dp"
+    >
+    </Button>
+</LinearLayout>

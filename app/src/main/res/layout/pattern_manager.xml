@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+	<LinearLayout android:id="@+id/patternLayout" android:padding="2dp" android:layout_margin="1dp" android:background="#999999" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+		<TextView android:text="@+string/patternFileTitle" android:padding="2dp" android:textStyle="bold" android:background="#ccffff" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+		<EditText android:text="@+id/patternFileText" android:id="@+id/patternFileText" android:layout_marginTop="5dp" android:layout_marginBottom="0dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text"></EditText>
+	</LinearLayout>
+    <ListView
+        android:id="@+id/patternList"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:text="@+string/select" android:layout_weight="1" android:id="@+id/patternUpdateButton" android:layout_width="fill_parent" android:layout_height="wrap_content" /> 
+	    <Button android:text="@+string/add" android:layout_weight="1" android:id="@+id/patternAddButton" android:layout_width="fill_parent" android:layout_height="wrap_content" /> 
+		<Button android:text="@+string/delete" android:layout_weight="1" android:id="@+id/patternDeleteButton" android:layout_width="fill_parent" android:layout_height="wrap_content" /> 
+		<Button android:text="@+string/close" android:layout_weight="1" android:id="@+id/patternCloseButton" android:layout_width="fill_parent" android:layout_height="wrap_content" /> 
+	</LinearLayout>    
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/tableLayout1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	</TableRow>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/StartButton"
+		android:text="Start"></Button>
+	<TextView android:id="@+id/TextView02" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="①パターンのリストで長押しをすることで、パターンの編集ができます。"></TextView>
+	<TextView android:id="@+id/TextView03" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="②[7]マイパターンで[新規作成]を選択することで、新規のパターンを登録できます。"></TextView>
+</TableLayout>
