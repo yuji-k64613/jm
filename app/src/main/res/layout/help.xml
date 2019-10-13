@@ -47,7 +47,7 @@
     	android:layout_weight="1"
     >
     </TextView>
-    <Button android:text="@+string/close" android:id="@+id/button91" android:layout_width="fill_parent" android:layout_height="wrap_content"
+    <Button android:text="@string/close" android:id="@+id/button91" android:layout_width="fill_parent" android:layout_height="wrap_content"
 	   	android:layout_margin="2dp"
     >
     </Button>

@@ -14,25 +14,25 @@
   android:layout_width="fill_parent"
   android:layout_height="fill_parent"
   android:orientation="vertical">
-  
-<TextView android:text="@+string/pattern_name" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="@string/pattern_name" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 <EditText android:text="@+id/PatternEdit" android:id="@+id/PatternEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text"></EditText>
-<TextView android:text="@+string/siteswap" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="@string/siteswap" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 <EditText android:text="@+id/SiteswapEdit" android:id="@+id/SiteswapEdit" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
-<TextView android:text="@+string/handling" android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="@string/handling" android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 <EditText android:text="@+id/MotionEdit" android:id="@+id/MotionEdit" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
-<TextView android:text="@+string/height" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="@string/height" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 <LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
 <TextView android:id="@+id/HeightLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="9" android:text="０"></TextView>
 <SeekBar android:id="@+id/HeightValue" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent" android:max="100"></SeekBar>
 </LinearLayout>
-<TextView android:text="@+string/hold" android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="@string/hold" android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 <LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content">
 <TextView android:id="@+id/DwellLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="9" android:text="０"></TextView>
 <SeekBar android:id="@+id/DwellValue" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent" android:max="100"></SeekBar>
 </LinearLayout>
-<TextView android:id="@+id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@+string/common_settings"></TextView>
-<TextView android:id="@+id/TextView07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@+string/speed"></TextView>
+<TextView android:id="@+id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_settings"></TextView>
+<TextView android:id="@+id/TextView07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/speed"></TextView>
 <LinearLayout android:layout_weight="1" android:id="@+id/LinearLayout03" android:layout_width="fill_parent" android:layout_height="wrap_content">
 <TextView android:id="@+id/SpeedLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="9" android:text="０"></TextView>
 <SeekBar android:id="@+id/SpeedValue" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent" android:max="20"></SeekBar>
@@ -42,8 +42,8 @@
 </ScrollView>
 
 <LinearLayout android:id="@+id/LinearLayout04" android:layout_width="fill_parent" android:layout_height="wrap_content">
-<Button android:text="@+string/save" android:layout_weight="1" android:id="@+id/OkButton" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
-<Button android:text="@+string/delete" android:layout_weight="1" android:id="@+id/DeleteButton" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
-<Button android:text="@+string/cancel" android:layout_weight="1" android:id="@+id/CancelButton" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+<Button android:text="@string/save" android:layout_weight="1" android:id="@+id/OkButton" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+<Button android:text="@string/delete" android:layout_weight="1" android:id="@+id/DeleteButton" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+<Button android:text="@string/cancel" android:layout_weight="1" android:id="@+id/CancelButton" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
 </LinearLayout>
 </LinearLayout>
